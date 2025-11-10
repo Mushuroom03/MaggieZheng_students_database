@@ -15,9 +15,11 @@ public class PostgreConnection {
     }
 
     public Connection getConnection() throws SQLException {
+        // Connect to postgre database
         return DriverManager.getConnection(url, user, pass);
     }
 
 }
+
 
 
