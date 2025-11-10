@@ -25,9 +25,13 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 
 The String url = "jdbc:postgresql://localhost:5432/A3Q1" should be changed where localhost is renamed to your host, 5432 is adjusted to your port, and A3Q1 is changed to match your database's name. 
 
-5. To compile the code, copy and paste the following commands into PowerShell in the correct directory:
+5. a) To compile the code IN WINDOWS, copy and paste the following commands into PowerShell in the correct directory:
 
- >.\build.bat 
+ >.\build.bat
+
+b) To compile the code ON LINUX, please copy and paste the following commands into PowerShell in the correct directory:
+
+>./build.sh
  
 6. To run the code, copy and paste the following command into the PowerShell in the correct directory AFTER compiling:
 
@@ -39,3 +43,4 @@ Here is the link to the video demonstration on how to run this code:
 >https://www.youtube.com/watch?v=_Le-JP6KKuI
 
 Note that in the demonstration, the code is commented out to show each section and that it fulfills and does what it needs to do. If you wish to see the problem broken down into parts as well, please comment out the parts you do not wish to test yet. 
+
