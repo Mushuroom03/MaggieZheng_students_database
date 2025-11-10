@@ -106,9 +106,9 @@ public class App {
 
         // Adding students
         app.addStudent("Maggie", "Zheng", "mushu@gmail.com", java.sql.Date.valueOf(java.time.LocalDate.now()));
-        app.addStudent("Wren", "Liu", "teehee@gmail.com", java.sql.Date.valueOf(java.time.LocalDate.now()));
-        app.addStudent("Flora", "Zhang", "yippee@gmail.com", java.sql.Date.valueOf(java.time.LocalDate.now()));
-        app.addStudent("Mira", "Malik", "miravrse@gmail.com", java.sql.Date.valueOf(java.time.LocalDate.now()));
+        app.addStudent("Helia", "Martin", "teehee@gmail.com", java.sql.Date.valueOf(java.time.LocalDate.now()));
+        app.addStudent("Dave", "Chen", "yippee@gmail.com", java.sql.Date.valueOf(java.time.LocalDate.now()));
+        app.addStudent("Mira", "Who", "miravrse@gmail.com", java.sql.Date.valueOf(java.time.LocalDate.now()));
 
         app.getAllStudents();
 
@@ -129,3 +129,4 @@ public class App {
         app.getAllStudents();
     }
 }
+
