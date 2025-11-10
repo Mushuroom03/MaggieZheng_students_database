@@ -37,10 +37,11 @@ b) To compile the code ON LINUX, please copy and paste the following commands in
 
  >java -jar App.jar (yourUsername) (yourPassword)
 
- Note: you need to enter your username and password into the command line for args in the indicated places above. It will be passed in that fixed order for the code so you MUST include it when running. 
+ Note: you need to enter your username and password into the command line for args in the indicated places above. It will be passed in that fixed order for the code, so you MUST include it when running. 
 
 Here is the link to the video demonstration on how to run this code:
 >https://www.youtube.com/watch?v=_Le-JP6KKuI
 
 Note that in the demonstration, the code is commented out to show each section and that it fulfills and does what it needs to do. If you wish to see the problem broken down into parts as well, please comment out the parts you do not wish to test yet. 
+
 
